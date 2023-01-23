@@ -8,7 +8,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #fdf6e3;
+  background: #fde3f9;
   color: #657b83;
 }
 
@@ -21,7 +21,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-addition {
-  color: #859900;
+  color: #7d0099;
 }
 
 /* Solarized Cyan */
@@ -50,7 +50,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-template-variable,
 .hljs-class .hljs-title,
 .hljs-type {
-  color: #b58900;
+  color: #b500af;
 }
 
 /* Solarized Orange */
@@ -62,17 +62,17 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-selector-attr,
 .hljs-selector-pseudo,
 .hljs-link {
-  color: #cb4b16;
+  color: #cb16b3;
 }
 
 /* Solarized Red */
 .hljs-built_in,
 .hljs-deletion {
-  color: #dc322f;
+  color: #281828;
 }
 
 .hljs-formula {
-  background: #eee8d5;
+  background: #edd5ee;
 }
 
 .hljs-emphasis {

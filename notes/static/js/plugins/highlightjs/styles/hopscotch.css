@@ -23,7 +23,7 @@
 .hljs-regexp,
 .hljs-link,
 .hljs-deletion {
-  color: #dd464c;
+  color: #161628;
 }
 
 /* Orange */
@@ -33,12 +33,12 @@
 .hljs-literal,
 .hljs-type,
 .hljs-params {
-  color: #fd8b19;
+  color: #c947b5;
 }
 
 /* Yellow */
 .hljs-class .hljs-title {
-  color: #fdcc59;
+  color: #bc41b0;
 }
 
 /* Green */
