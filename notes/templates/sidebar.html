@@ -28,7 +28,7 @@
                                 <!-- Logo -->
                                 <div class="content-header-item">
                                     <a class="link-effect font-w700" href="{% url 'admin_home' %}">
-                                           <span class="font-size-xl text-dual-primary-dark">Notes</span><span class="font-size-xl text-primary">Sharing</span>
+                                           <span class="font-size-xl text-dual-primary-dark">Memo</span><span class="font-size-xl text-primary">Pad</span>
                                     </a>
                                 </div>
                                 <!-- END Logo -->
@@ -80,7 +80,7 @@
                                     <a class="nav-submenu" data-toggle="nav-submenu"><i class="far fa-address-card"></i><span class="sidebar-mini-hide"></span>View Notes</a>
                                     <ul>
                                         <li>
-                                            <a href="{% url 'pending_notes' %}">Pending Notes</a>
+                                            <a href="{% url 'pending_notes' %}">Pending approval</a>
                                         </li>
                                         <li>
                                             <a href="{% url 'accepted_notes' %}">Accepted Notes</a>
@@ -94,7 +94,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a  href="{% url 'view_users' %}"><i class="fas fa-eye"></i><span class="sidebar-mini-hide">View User</span></a>
+                                    <a  href="{% url 'view_users' %}"><i class="fas fa-eye"></i><span class="sidebar-mini-hide">View Users list</span></a>
                                 </li>
 
                                 <li>
@@ -106,7 +106,6 @@
                                         <li>
                                             <a href="{% url 'read_queries' %}">Read Queries</a>
                                         </li>
-
                                     </ul>
                                 </li>
 
