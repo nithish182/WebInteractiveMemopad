@@ -1,9 +1,9 @@
 :root{
-    --gradient:linear-gradient(90deg, #f1c40f, #f39c12);
+    --gradient:linear-gradient(90deg, #f466ef, #95089a);
 }
 
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Californian-FB;
     margin:0; padding:0;
     box-sizing: border-box;
     border:none; outline: none;
@@ -13,7 +13,7 @@
 }
 
 *::selection{
-    background:#f39c12;
+    background:#ec38f3;
     color:#fff;
 }
 
@@ -31,7 +31,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:linear-gradient(#f1c40f, #f39c12);
+    background:linear-gradient(#f764e1, #9c01a4);
 }
 
 section{
@@ -173,7 +173,7 @@ header #menu{
 }
 
 .userlog .row form .box:focus{
-    border-color: #f39c12;
+    border-color: #dd12f3;
 }
 
 .userlog .row form .box::placeholder{
@@ -204,7 +204,7 @@ header #menu{
 }
 
 .userlog form p a{
-    color:#f39c12;
+    color:#ce12f3;
 }
 
 .userlog form .btn{
@@ -343,7 +343,7 @@ header #menu{
 
 
 .signup .row form .box:focus{
-    border-color: #f39c12;
+    border-color: #f217bf;
 }
 
 .signup .row form .box::placeholder{
@@ -407,7 +407,7 @@ header #menu{
 }
 
 .contact .row form .box:focus{
-    border-color: #f39c12;
+    border-color: #d112f3;
 }
 
 .contact .row form .box::placeholder{
@@ -526,7 +526,7 @@ header #menu{
 
 .footer .box-container .box p i{
     padding-right: .5rem;
-    color:#f39c12;
+    color:#d81ef5;
 }
 
 .footer .box-container .box a{
@@ -551,7 +551,7 @@ header #menu{
 }
 
 .footer .credit a{
-    color:#f39c12
+    color:#d303c5
 }
 
 
@@ -592,7 +592,7 @@ header #menu{
 
     header .navbar ul li a.active,
     header .navbar ul li a:hover{
-        color:#f39c12;
+        color:#f312ec;
     }
 
     .fa-times{
