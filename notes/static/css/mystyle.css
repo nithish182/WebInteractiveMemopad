@@ -1,9 +1,9 @@
 .nav-link{ color : black}
 
 .nav-link:hover{
-  color : rgb(255, 0, 225);
+  color : rgb(223, 0, 197);
   font-weight : bold;
-  background-color : rgb(190, 32, 252);
+  background-color : rgb(172, 142, 184);
   border-radius : 10px;
 }
 
@@ -20,7 +20,7 @@ margin-top : 10%;
 font-weight : bold;
 font-size : 60px;
 font-family :'Monotype Corsiva';
-color : rgb(0, 119, 255);
+color : rgb(40, 107, 252);
 text-align : center;
 }
 

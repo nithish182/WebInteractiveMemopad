@@ -1,5 +1,5 @@
 :root{
-    --gradient:linear-gradient(90deg, #f466ef, #95089a);
+    --gradient:linear-gradient(90deg, #eb66f4, #eb76f8);
 }
 
 *{
@@ -13,8 +13,8 @@
 }
 
 *::selection{
-    background:#ec38f3;
-    color:#fff;
+    background:#e1d5e1;
+    color:rgb(253, 66, 216);
 }
 
 html{
@@ -27,7 +27,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#333;
+    background:rgb(60, 0, 255);
 }
 
 html::-webkit-scrollbar-thumb{
@@ -43,7 +43,7 @@ section{
 .btn{
     padding:.7rem 3rem;
     font-size: 2rem;
-    color:#fff;
+    color:rgb(250, 41, 226);
     background:var(--gradient);
     border-radius: 5rem;
     margin-top: 1rem;
@@ -71,7 +71,7 @@ section{
 }
 
 .heading{
-    color:#444;
+    color:rgb(245, 106, 242);
     padding:1rem;
     font-size: 4rem;
     text-align: center;
@@ -91,7 +91,7 @@ header{
 }
 
 header .logo{
-    color:#fff;
+    color:rgb(249, 117, 251);
     font-size: 2.5rem;
 }
 
@@ -113,7 +113,7 @@ header .navbar ul li a{
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-    color:#444;
+    color:rgb(251, 126, 242);
 }
 
 header #login{
@@ -239,12 +239,12 @@ header #menu{
 
 .home h1{
     font-size: 6rem;
-    color:#666;
+    color:rgb(130, 125, 125);
 }
 
 .home p{
     font-size: 1.9rem;
-    color:#999;
+    color:rgb(100, 99, 99);
     padding:1rem 0;
     width:70rem;
 }
@@ -256,7 +256,7 @@ header #menu{
     width:100%;
     background:url(../images/shape.png);
     block-size: 100rem 15rem;
-    filter: drop-shadow(0 -.1rem .1rem rgba(0,0,0,.2));
+    filter: drop-shadow(0 -.1rem .1rem rgba(105, 104, 104, 0.2));
     animation: animate 10s linear infinite;
 }
 
