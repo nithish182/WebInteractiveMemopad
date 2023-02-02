@@ -1,5 +1,5 @@
 :root{
-    --gradient:linear-gradient(90deg, #eb66f4, #eb76f8);
+    --gradient:linear-gradient(300deg, #C82035 22%,#DE0764 25%,#AB009A 30%,#37BDDE 37%,#3743DE 39%,#37DFCA 42%,#B620C7 58%,#8A20C7 69%);
 }
 
 *{
@@ -13,8 +13,8 @@
 }
 
 *::selection{
-    background:#e1d5e1;
-    color:rgb(253, 66, 216);
+    background:blue;
+    color:magenta;
 }
 
 html{
@@ -86,7 +86,7 @@ header{
     top:0; left: 0;
     z-index: 1000;
     padding:1.5rem 7%;
-    background:var(--gradient);
+    background-color: linear-gradient(300deg, #C82035 22%,#DE0764 25%,#AB009A 30%,#37BDDE 37%,#3743DE 39%,#37DFCA 42%,#B620C7 58%,#8A20C7 69%);
     box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
 }
 
