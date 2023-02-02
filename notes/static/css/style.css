@@ -1,7 +1,6 @@
 :root{
-    --gradient:linear-gradient(300deg, #C82035 22%,#DE0764 25%,#AB009A 30%,#37BDDE 37%,#3743DE 39%,#37DFCA 42%,#B620C7 58%,#8A20C7 69%);
+    --gradient:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,9,121,1) 9%, rgba(182,0,255,1) 100%); 
 }
-
 *{
     font-family: 'Open Sans', sans-serif;
     margin:0; padding:0;
@@ -71,7 +70,7 @@ section{
 }
 
 .heading{
-    color:rgb(245, 106, 242);
+    color:rgb(255, 0, 251);
     padding:1rem;
     font-size: 4rem;
     text-align: center;
@@ -86,12 +85,12 @@ header{
     top:0; left: 0;
     z-index: 1000;
     padding:1.5rem 7%;
-    background-color: linear-gradient(300deg, #C82035 22%,#DE0764 25%,#AB009A 30%,#37BDDE 37%,#3743DE 39%,#37DFCA 42%,#B620C7 58%,#8A20C7 69%);
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,9,121,1) 9%, rgba(182,0,255,1) 100%);
     box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
 }
 
 header .logo{
-    color:purple;
+    color:rgb(255, 0, 255);
     font-size: 2.5rem;
 }
 
@@ -113,7 +112,7 @@ header .navbar ul li a{
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-    color:rgb(251, 126, 242);
+    color:rgb(215, 0, 201);
 }
 
 header #login{
@@ -128,18 +127,18 @@ header #login:hover{
 
 header #menu{
     font-size: 3rem;
-    color:rgb(132, 131, 131);
+    color:rgb(255, 215, 215);
     cursor: pointer;
     display: none;
 }
 
 
 .userlog{
-    background:rgb(86, 86, 86);
+    background:rgb(255, 255, 255);
 }
 
 .userlog .heading{
-    color:#fff;
+    color:rgb(0, 0, 0);
 }
 
 .userlog .row{
@@ -173,7 +172,7 @@ header #menu{
 }
 
 .userlog .row form .box:focus{
-    border-color: #dd12f3;
+    border-color: #b800cc;
 }
 
 .userlog .row form .box::placeholder{
@@ -188,8 +187,8 @@ header #menu{
 }
 
 .userlog .row form .btn:hover{
-    background:#fff;
-    color:rgb(68, 68, 68);
+    background:rgb(246, 125, 255);
+    color:rgb(0, 0, 0);
 }
 
 .userlog .row .image img{
@@ -199,7 +198,7 @@ header #menu{
 
 .userlog form p{
     font-size: 1.4rem;
-    color:#666;
+    color:rgb(254, 188, 255);
     padding:.5rem 0;
 }
 
@@ -221,7 +220,7 @@ header #menu{
 }
 
 .login-form form .fa-times:hover{
-    color:#444;
+    color:rgb(255, 216, 252);
 }
 
 .home{
@@ -304,7 +303,7 @@ header #menu{
 }
 
 .signup{
-    background:rgb(71, 70, 70);
+    background:rgb(205, 195, 195);
 }
 
 .signup .heading{
@@ -320,7 +319,7 @@ header #menu{
 
 .signup .row form{
     flex:1 1 50rem;
-    background:rgb(98, 98, 98);
+    background:rgb(255, 221, 221);
     padding:2rem;
     display: flex;
     justify-content: space-between;
@@ -359,7 +358,7 @@ header #menu{
 
 .signup .row form .btn:hover{
     background:#fff;
-    color:rgb(97, 97, 97);
+    color:rgb(241, 194, 194);
 }
 
 .signup .row .image img{
@@ -369,7 +368,7 @@ header #menu{
 
 
 .contact{
-    background:rgb(91, 91, 91);
+    background:rgb(249, 215, 215);
 }
 
 .contact .heading{
@@ -385,7 +384,7 @@ header #menu{
 
 .contact .row form{
     flex:1 1 50rem;
-    background:rgb(68, 68, 68);
+    background:rgb(247, 207, 207);
     padding:2rem;
     display: flex;
     justify-content: space-between;
@@ -433,7 +432,7 @@ header #menu{
 
 
 .adminlog{
-    background:rgb(76, 76, 76);
+    background:rgb(186, 186, 186);
 }
 
 .adminlog .heading{
@@ -449,7 +448,7 @@ header #menu{
 
 .adminlog .row form{
     flex:1 1 50rem;
-    background:rgb(93, 93, 93);
+    background:rgb(251, 239, 239);
     padding:2rem;
     display: flex;
     justify-content: space-between;
@@ -486,8 +485,8 @@ header #menu{
 }
 
 .adminlog .row form .btn:hover{
-    background:rgb(114, 114, 114);
-    color:rgb(72, 72, 72);
+    background:rgb(255, 240, 240);
+    color:rgb(134, 111, 111);
 }
 
 .adminlog .row .image img{
@@ -592,7 +591,7 @@ header #menu{
 
     header .navbar ul li a.active,
     header .navbar ul li a:hover{
-        color:#f312ec;
+        color:#bc00b6;
     }
 
     .fa-times{

@@ -7273,15 +7273,15 @@ a.text-warning:focus, a.text-warning:hover {
 }
 
 .text-danger {
-  color: #ef5350 !important;
+  color:#0a0a0a !important;
 }
 
 a.text-danger.link-effect::before {
-  background-color: #ef5350;
+  background-color: #0a0a0a;
 }
 
 a.text-danger:focus, a.text-danger:hover {
-  color: #c71612 !important;
+  color:#000 !important;
 }
 
 .text-muted {

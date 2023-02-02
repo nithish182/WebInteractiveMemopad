@@ -17,17 +17,17 @@
 {% endifequal %}
 
 <br><br><br><br><br>
-<section class="adminlog" id="adminlog" style="background-color:burlywood;">
-<h1 class="heading mt-5">Admin Login</h1>
+<section class="adminlog" id="adminlog" style="background-color:azure;">
+<h1 class="heading mt-5" style="color: black;">Admin Login</h1>
 
 <div class="row">
     <div class="image">
         <img src="{% static 'images/Kids Studying from Home-rafiki.png' %}" alt="">
     </div>
-    <form method="post">
+    <form method="post" style="background-color:aliceblue;">
         {% csrf_token %}
-		<input type="text" placeholder="Enter Username" name="uname" class="box">
-        <input type="password" placeholder="Enter Password" name="pwd" class="box">
+		<input style="color: black;" type="text" placeholder="Enter Username" name="uname" class="box">
+        <input style="color: black;" type="password" placeholder="Enter Password" name="pwd" class="box">
 		<input type="submit" class="btn" value="Let Master in">
     </form>
 </div>

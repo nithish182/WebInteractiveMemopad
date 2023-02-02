@@ -16,26 +16,18 @@
 {% endifequal %}
 <br><br><br><br>
 <section class="signup" id="signup" style="background-color: azure;">
-<h1 class="heading">User Signup Form</h1>
+<h1 class="heading" style="color: black;">User Signup Form</h1>
 
-<div class="row">
-					<form method="post">
+<div class="row" style="background-color: rgb(253, 253, 253);">
+					<form method="post" style="background-color:rgb(248, 207, 255);">
 							{% csrf_token %}
 
-									<input type="text" placeholder="Enter First Name" class="box" name="firstname" required>
-
-
-							        <input type="text" placeholder="Enter Last Name" class="box" name="lastname" required>
-
-
-									<input type="number" placeholder="Enter Contact Number" class="box"name="contact" required>
-
-
-									<input type="email" placeholder="Enter Email Address" class="box" name="emailid" required>
-
-
-									<input type="password" placeholder="Password" class="box" name="password" required>
-						              <select name="branch" class="box" style="background-color : rgb(158, 158, 158)">
+									<input type="text" style="color: rgb(0, 0, 0);" placeholder="Enter First Name" class="box" name="firstname" required>
+							        <input type="text" style="color: black;" placeholder="Enter Last Name" class="box" name="lastname" required> <br>
+									<input type="number" style="color: black;" placeholder="Enter Contact Number" class="box"name="contact" required> <br>
+									<input type="email" style="color: black;"placeholder="Enter Email Address" class="box" name="emailid" required> <br>
+									<input type="password" style="color: black;" placeholder="Password" class="box" name="password" required> <br>
+						              <select name="branch" class="box" style="color: rgb(95, 95, 95);background-color:rgb(233, 192, 254)">
                                       <option value="">--- Select Branch ---</option>
 									  <option value="Computer Science">Computer Science</option>
 									  <option value="Mechanical">Mechanical</option>
@@ -46,7 +38,7 @@
 									</select>
 
 
-									<select name="role" class="box" style="background-color : rgb(97, 92, 92)">
+									<select name="role" class="box" style="color: rgb(95, 95, 95);background-color : rgb(233, 192, 254)">
                                         <option value="">--- Role ---</option>
 										<option value="Student">Student</option>
 										<option value="Teacher">Teacher</option>
