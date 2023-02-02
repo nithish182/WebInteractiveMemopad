@@ -48,7 +48,7 @@ section{
     border-radius: 5rem;
     margin-top: 1rem;
     cursor: pointer;
-    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+    box-shadow: 0 .1rem .3rem rgba(80, 79, 79, 0.3);
     position: relative;
     overflow: hidden;
     z-index: 0;
@@ -108,7 +108,7 @@ header .navbar ul li{
 
 header .navbar ul li a{
     font-size: 2rem;
-    color:#fff;
+    color:rgb(118, 118, 118);
 }
 
 header .navbar ul li a.active,
@@ -118,7 +118,7 @@ header .navbar ul li a:hover{
 
 header #login{
     font-size: 3rem;
-    color:#fff;
+    color:rgb(132, 131, 131);
     cursor: pointer;
 }
 
@@ -128,14 +128,14 @@ header #login:hover{
 
 header #menu{
     font-size: 3rem;
-    color:#fff;
+    color:rgb(132, 131, 131);
     cursor: pointer;
     display: none;
 }
 
 
 .userlog{
-    background:#111;
+    background:rgb(86, 86, 86);
 }
 
 .userlog .heading{
@@ -151,7 +151,7 @@ header #menu{
 
 .userlog .row form{
     flex:1 1 50rem;
-    background:#222;
+    background:rgb(142, 141, 141);
     padding:2rem;
     display: flex;
     justify-content: space-between;
@@ -189,7 +189,7 @@ header #menu{
 
 .userlog .row form .btn:hover{
     background:#fff;
-    color:#333;
+    color:rgb(68, 68, 68);
 }
 
 .userlog .row .image img{
@@ -256,7 +256,7 @@ header #menu{
     width:100%;
     background:url(../images/shape.png);
     block-size: 100rem 15rem;
-    filter: drop-shadow(0 -.1rem .1rem rgba(105, 104, 104, 0.2));
+    filter: drop-shadow(0 -.1rem .1rem rgba(116, 114, 114, 0.2));
     animation: animate 10s linear infinite;
 }
 
@@ -304,11 +304,11 @@ header #menu{
 }
 
 .signup{
-    background:#111;
+    background:rgb(71, 70, 70);
 }
 
 .signup .heading{
-    color:#fff;
+    color:rgb(71, 70, 70);
 }
 
 .signup .row{
@@ -320,7 +320,7 @@ header #menu{
 
 .signup .row form{
     flex:1 1 50rem;
-    background:#222;
+    background:rgb(98, 98, 98);
     padding:2rem;
     display: flex;
     justify-content: space-between;
@@ -359,7 +359,7 @@ header #menu{
 
 .signup .row form .btn:hover{
     background:#fff;
-    color:#333;
+    color:rgb(97, 97, 97);
 }
 
 .signup .row .image img{
@@ -369,7 +369,7 @@ header #menu{
 
 
 .contact{
-    background:#111;
+    background:rgb(91, 91, 91);
 }
 
 .contact .heading{
@@ -385,7 +385,7 @@ header #menu{
 
 .contact .row form{
     flex:1 1 50rem;
-    background:#222;
+    background:rgb(68, 68, 68);
     padding:2rem;
     display: flex;
     justify-content: space-between;
@@ -423,7 +423,7 @@ header #menu{
 
 .contact .row form .btn:hover{
     background:#fff;
-    color:#333;
+    color:rgb(67, 67, 67);
 }
 
 .contact .row .image img{
@@ -433,11 +433,11 @@ header #menu{
 
 
 .adminlog{
-    background:#111;
+    background:rgb(76, 76, 76);
 }
 
 .adminlog .heading{
-    color:#fff;
+    color:rgba(99, 99, 99, 0.504);
 }
 
 .adminlog .row{
@@ -449,7 +449,7 @@ header #menu{
 
 .adminlog .row form{
     flex:1 1 50rem;
-    background:#222;
+    background:rgb(93, 93, 93);
     padding:2rem;
     display: flex;
     justify-content: space-between;
@@ -486,8 +486,8 @@ header #menu{
 }
 
 .adminlog .row form .btn:hover{
-    background:#fff;
-    color:#333;
+    background:rgb(114, 114, 114);
+    color:rgb(72, 72, 72);
 }
 
 .adminlog .row .image img{
@@ -497,7 +497,7 @@ header #menu{
 
 
 .footer{
-    background:#333;
+    background:rgb(76, 72, 72);
 }
 
 .footer .box-container{
@@ -526,7 +526,7 @@ header #menu{
 
 .footer .box-container .box p i{
     padding-right: .5rem;
-    color:#d81ef5;
+    color:#810095;
 }
 
 .footer .box-container .box a{
@@ -544,14 +544,14 @@ header #menu{
     padding:2rem 1rem;
     font-size: 2rem;
     color:#fff;
-    background:#111;
+    background:rgb(71, 68, 68);
     text-align: center;
     font-weight: normal;
     padding-bottom: 9rem;
 }
 
 .footer .credit a{
-    color:#d303c5
+    color:#b900ad
 }
 
 

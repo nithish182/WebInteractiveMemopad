@@ -1,5 +1,5 @@
 {% load static %}
-.nav-link{ color : black}
+.nav-link{ color : rgb(117, 117, 117)}
 
 .nav-link:hover{
   color : magenta;
