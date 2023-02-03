@@ -357,8 +357,8 @@ header #menu{
 }
 
 .signup .row form .btn:hover{
-    background:#fff;
-    color:rgb(241, 194, 194);
+    background:rgb(246, 125, 255);
+    color:rgb(0, 0, 0);
 }
 
 .signup .row .image img{
@@ -421,7 +421,7 @@ header #menu{
 }
 
 .contact .row form .btn:hover{
-    background:rgb(255, 87, 255);
+    background:rgb(246, 125, 255);
     color:rgb(48, 48, 48);
 }
 
@@ -485,7 +485,7 @@ header #menu{
 }
 
 .adminlog .row form .btn:hover{
-    background:rgb(255, 105, 225);
+    background:rgb(246, 125, 255);
     color:rgb(0, 0, 0);
 }
 
@@ -570,7 +570,7 @@ header #menu{
         position: fixed;
         top:-120%; left:0;
         width:100%;
-        background:rgb(44, 44, 44);
+        background:rgb(177, 252, 255);
     }
 
     header .navbar ul{
