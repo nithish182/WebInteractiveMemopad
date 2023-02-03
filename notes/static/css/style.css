@@ -228,7 +228,7 @@ header #menu{
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    background:url(/static/images/note1.jpg);
+    background-image:url(/static/images/note4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -276,6 +276,7 @@ header #menu{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: justify;
 }
 
 .about .image{

@@ -27,8 +27,8 @@
         {% csrf_token %}
 		<input style="color: black;" type="email"  placeholder="Enter Email ID" name="emailid" class="box">
         <input style="color: black;" type="password" placeholder="Enter Password" name="pwd" class="box">
-        <p>don't have an account? <a href="{% url 'signup' %}">register now</a></p>
-        <input type="submit" class="btn" value="Get In">
+        <p style="color:blueviolet;font-size: 1.25rem;">forget password? rise a query in contact form for recovery.<br>don't have an account? <a href="{% url 'signup' %}">register now</a></p>
+        <input type="submit" class="btn" style="color: azure;" value="Get In">
     </form>
 </div>
 </section>
