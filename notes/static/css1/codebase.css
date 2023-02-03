@@ -187,14 +187,14 @@ sup {
 }
 
 a {
-  color: #42a5f5;
+  color: #7dc4ff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0b72c6;
+  color: #6abcff;
   text-decoration: none;
 }
 
@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   line-height: 1.2;
-  color: #171717;
+  color: #0b0b0b;
 }
 
 h1, .h1 {
@@ -3238,15 +3238,15 @@ tbody.collapse.show {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #868e96;
+  color: #777474;
   background-color: transparent;
   border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #575757;
-  background-color: #fff;
+  color: #121212;
+  background-color: rgb(160, 228, 255);
   border-color: #eaecee #eaecee #fff;
 }
 
@@ -10058,7 +10058,7 @@ a.block.block-themed .btn-block-option:focus, .active > a.block.block-themed .bt
 }
 
 .nav-main ul a:focus, .nav-main ul a:hover {
-  background-color: transparent;
+  background-color: #ffbff2;
 }
 
 .nav-main ul a > i {

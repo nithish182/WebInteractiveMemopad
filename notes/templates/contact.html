@@ -18,16 +18,16 @@
 <section class="contact" id="contact" style="background-color:azure;">
 <h1 class="heading mt-5" style="color:rgb(0, 0, 0);">contact us</h1>
 
-<div class="row">
+<div class="row" style="background-color: aliceblue";>
 
-    <form method="post">
+    <form method="post" style="background-color:aliceblue";>
         {% csrf_token %}
-        <input type="text" placeholder="full name" name="fullname" class="box">
-        <input type="email" placeholder="your email" name="email" class="box">
-        <input type="number" placeholder="your contact number" name="mobile" class="box">
-        <input type="text" placeholder="Subject" name="subject" class="box">
-        <textarea name="message" id="" cols="30" rows="8" class="box address" placeholder="Send Message... If student type USN.no. before message..."></textarea>
-        <input type="submit" class="btn" value="send now">
+        <input type="text" style="color: rgb(0, 0, 0);" placeholder="full name" name="fullname" class="box"><br>
+        <input type="email" style="color: rgb(0, 0, 0);" placeholder="your email" name="email" class="box"><br>
+        <input type="number" style="color: rgb(0, 0, 0);" placeholder="your contact number" name="mobile" class="box"><br>
+        <input type="text" style="color: rgb(0, 0, 0);" placeholder="Subject" name="subject" class="box"><br>
+        <br><textarea name="message" id="" cols="30" rows="8" class="box address" style="color: rgb(0, 0, 0);" placeholder="Send Message... If student type USN.no. before message..."></textarea><br>
+        <input type="submit" class="btn" value="send now"><br>
     </form>
 
     <div class="image">
