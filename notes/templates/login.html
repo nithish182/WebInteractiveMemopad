@@ -25,11 +25,13 @@
     </div>
     <form method="post" style="background-color: aliceblue;">
         {% csrf_token %}
-		<input style="color: black;" type="email"  placeholder="Enter Email ID" name="emailid" class="box">
-        <input style="color: black;" type="password" placeholder="Enter Password" name="pwd" class="box">
-        <p style="color:blueviolet;font-size: 1.25rem;">forget password? rise a query in contact form for recovery.<br>don't have an account? <a href="{% url 'signup' %}">register now</a></p>
-        <input type="submit" class="btn" style="color: azure;" value="Get In">
-    </form>
+        <label for="uname" style="font-size: 17px">Memo pad email-id:
+		<input style="color: black;background-color: rgb(255, 255, 255);" type="email"  placeholder="Enter Email ID" name="emailid" class="box">
+        <label for="uname" style="font-size: 17px">*password: 
+        <input style="color: black;background-color: rgb(255, 255, 255);" type="password" placeholder="Enter Password" name="pwd" class="box"><br>
+        <p style="color:blueviolet;font-size: 1.25rem;">forget password? rise a query in <a href="{% url 'contact' %}" style="color: orangered;">contact form for recovery.</a><br>don't have an account? <a href="{% url 'signup' %}" style="color: orangered;">register now</a></p>
+        <input type="submit" class="btn" style="color: rgb(255, 255, 255);" value="Get In">
+        </label></label></form>
 </div>
 </section>
 

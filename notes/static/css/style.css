@@ -225,8 +225,8 @@ header #menu{
 
 .home{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:center;
     flex-flow: column;
     background-image:url(/static/images/note4.jpg);
     background-size: cover;
@@ -236,14 +236,14 @@ header #menu{
     text-align: center;
 }
 
-.home h1{
-    font-size: 6rem;
+.home h3{
+    font-size: 22rem;
     color:rgb(11, 11, 11);
 }
 
 .home p{
     font-size: 1.9rem;
-    color:rgb(100, 99, 99);
+    color:rgb(81, 76, 76);
     padding:1rem 0;
     width:70rem;
 }
@@ -253,7 +253,7 @@ header #menu{
     bottom:-.2rem; left: 0;
     height:15rem;
     width:100%;
-    background:url(../images/shape.png);
+    background:url(../images/under_c.jpg);
     block-size: 100rem 15rem;
     filter: drop-shadow(0 -.1rem .1rem rgba(57, 57, 57, 0.2));
     animation: animate 10s linear infinite;
